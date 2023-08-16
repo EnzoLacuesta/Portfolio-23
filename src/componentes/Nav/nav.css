@@ -1,0 +1,26 @@
+.nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.nav > div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+li{
+    list-style: none;
+}
+.li{
+    text-decoration: none;
+    color: white;
+}
