@@ -4,8 +4,36 @@
     grid-template-rows: 10% 90%;
 }
 .cont-home{
-    padding: 0%;
-    background-color: rgb(226, 226, 226);
-    text-align: center;
-    color: rgb(0, 0, 0);
+    padding: 5%;
+    background-color: #325b81;
+    color: rgb(230, 230, 230);    
+}
+.hi{
+    color: rgb(181, 181, 181);
+    letter-spacing: 0.1rem;
+}
+h1{
+    color: white;
+}
+ h2{
+    color: rgb(181, 181, 181);
+ }
+.div-p{
+    padding-top: 5rem;
+    padding-right: 20%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.icons{
+    padding-top: 10rem;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+    width: 80%;
+}
+.icons > *{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+a{
+    color: white;
 }

@@ -1,21 +1,23 @@
 .nav{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     width: 100%;
     font-size: 1.3rem;
-    background-color: black;
+    background-color: #12303d;
     color: white;
     font-weight: 600;
+    height: 10vh;
 }
-.nav > div{
-    display: grid;
+.gi{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 .ul{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 li{
     list-style: none;
@@ -23,4 +25,7 @@ li{
 .li{
     text-decoration: none;
     color: white;
+}
+.sp{
+    color: skyblue;
 }
